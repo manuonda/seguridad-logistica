@@ -1,0 +1,55 @@
+body {
+    background: url(../img/background.png);
+}
+
+.navbar-brand {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+}
+
+.bg-dark {
+    background-color: #801c1a!important;
+}
+
+.footer {
+    background-color: #801c1a;
+}
+
+.mayuscula{
+    text-transform: uppercase;
+}
+
+.borde{
+    border: 1px solid #ced4da;
+    padding: .375rem .75rem;
+}
+
+.form-control {
+    color: #495057;
+}
+
+.table-hover>tbody>tr:hover>td, .table-hover>tbody>tr:hover>th {
+    background-color: #bce8f1;
+    color: #080808;
+}
+
+/* Desactivar las flechas de los inputs numbers */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
+input[type=number] { -moz-appearance:textfield; }
+
+@media only screen and (max-width:991px){
+    .responsive-label{text-align: left;}
+    .responsive-element{margin-left: 15px;}
+  }
+@media only screen and (min-width:992px){
+    .responsive-label{text-align: right;}
+}
+
+@media only screen and (max-width:490px){
+    .click-pago{height: 40px;}
+    .texto-paga-online{font-size: 18px;}
+}

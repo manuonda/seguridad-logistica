@@ -1,0 +1,25 @@
+Al crear el usuario debe verificar el legajo si existe o no, en el esquema personal -> personal y buscar po legajos
+
+1 - creamos el usuarios y password en estas tablas 
+public -> users 
+public ->users_roles 
+
+
+2 - Ingreso al esquema personal dependencias.
+y me fijo a que dependencia corresponde..
+Ingreso a personal->personal y le sobrescribo la dependencia
+
+111222333.qaz (clave generica)
+
+
+Si el efectivo no esta en la tabla personal->personal agregarlo y completar soalmente los campos 
+legajo, id_dependnecia, id_jerarquia,cuil,id_personal(legajo),
+
+-----------------------------------------------------------
+Si se agrega una nueva sucursal por ejemplo de alto comedero de la UAD
+se deben crear 2 usuarios por cada efectivo.
+con los roles 10 y 1 .
+los username poner como ejmplo 
+
+
+ 

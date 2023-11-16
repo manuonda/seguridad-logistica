@@ -1,0 +1,15 @@
+body {
+  font-family: Source Sans, "Open Sans", sans-serif;;
+  font-size: 13px;
+  color: #FFFFFF;
+  background-color: #1B1E22;
+}
+
+.card-header {
+	font-size: 13px;
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: #A3BD31;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    color: #FFFFFF;
+}
